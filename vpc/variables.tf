@@ -7,6 +7,7 @@ variable "vpc_cidr" {
 variable "pb_cidrs" {
   type = list(any)
 }
+
 variable "ext_ip" {
   type = string
 }

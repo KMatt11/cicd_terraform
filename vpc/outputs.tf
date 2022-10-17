@@ -10,7 +10,3 @@ output "kp_pb_sg" {
 output "kp_pb_sn" {
   value = aws_subnet.kp_pb_sn[*].id
 }
-
-#output "web_sg" {
-#  value = aws_security_group.ttp_web_sg.id
-#}
